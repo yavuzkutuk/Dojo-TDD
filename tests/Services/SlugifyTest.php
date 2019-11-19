@@ -10,7 +10,7 @@ class SlugifyTest extends TestCase
     public function testSlugify()
     {
         $slugify = new Slugify();
-        $this->assertSame('je-manges', $slugify->slugify("je mange"));
+        $this->assertSame('je-mange', $slugify->slugify("je mange"));
     }
 
 }
