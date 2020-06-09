@@ -38,12 +38,15 @@ class CalculateTest extends TestCase
 
     public function testAddition()
     {
-       // Instruction
+       // Instruction Exemple
+        // InitialiseTonService
+       // $this->assertEquals(ValeurAttendue, AppelTonService);
     }
 }
 ````
 
 ### A toi de jouer
 
+* Termine le service Addition de l'exemple
 * Créer moi un service pour transformer un titre en url
 * Pour le tester ```$ php vendor/bin/phpunit --colors=auto tests```
