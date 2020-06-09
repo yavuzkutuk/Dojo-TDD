@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services;
+namespace Tests\Services;
 
 use App\Services\Slugify;
 use PHPUnit\Framework\TestCase;
