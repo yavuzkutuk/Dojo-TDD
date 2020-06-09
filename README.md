@@ -13,6 +13,7 @@ Commençons par :
 ### Exemple code dans service
 
 ````php
+// src/Services/Calculate.php
 namespace App\Services;
 
 class Calculate
@@ -28,6 +29,7 @@ class Calculate
 ### Exemple code dans Tests
 
 ````php
+// src/Services/CalculateTest.php
 namespace Test;
 
 use App\Services\Calculate;
