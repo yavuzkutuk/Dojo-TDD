@@ -19,6 +19,8 @@ autoload": {
     }
 ```
 
+* N'oubliez pas d'executer composer dumpautoload
+
 ### Exemple code dans service
 
 ````php
