@@ -10,6 +10,15 @@ Commençons par :
 * Tu crées ton code dans service et ton code dans tests
 * Pour tester ```$ php vendor/bin/phpunit --colors=auto tests```
 
+### N'oubliez pas de rajouter l'autoload dans composer.json
+```
+autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+```
+
 ### Exemple code dans service
 
 ````php
