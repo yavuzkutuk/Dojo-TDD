@@ -29,7 +29,7 @@ class Calculate
 ### Exemple code dans Tests
 
 ````php
-// src/Services/CalculateTest.php
+// tests/Services/CalculateTest.php
 namespace Test;
 
 use App\Services\Calculate;
