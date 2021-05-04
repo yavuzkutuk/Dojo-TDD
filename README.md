@@ -2,7 +2,7 @@
 
 Le but de ce dojo est de vous initier aux Tests Unitaires
 
-#Vous commencez de zéro :
+# Vous commencez de zéro :
 * Créer un projet PHP
 * ```$ composer init ```
 * ``$ composer require phpunit/phpunit``
@@ -21,7 +21,7 @@ Le but de ce dojo est de vous initier aux Tests Unitaires
 
 * N'oubliez pas d'executer composer dumpautoload
 
-#Vous commencez à partir du git clone :
+# Vous commencez à partir du git clone :
 * Tu complètes les services src/Services en te basant sur les services tests/Services
 * Pour tester ```$ php vendor/bin/phpunit --colors=auto tests```
 
