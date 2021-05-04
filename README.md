@@ -2,7 +2,7 @@
 
 Le but de ce dojo est de vous initier aux Tests Unitaires
 
-Commençons par :
+#Vous commencez de zéro :
 * Créer un projet PHP
 * ```$ composer init ```
 * ``$ composer require phpunit/phpunit``
@@ -12,7 +12,7 @@ Commençons par :
 
 ### N'oubliez pas de rajouter l'autoload dans composer.json
 ```
-autoload": {
+"autoload": {
         "psr-4": {
             "App\\": "src/"
         }
@@ -20,6 +20,10 @@ autoload": {
 ```
 
 * N'oubliez pas d'executer composer dumpautoload
+
+#Vous commencez à partir du git clone :
+* Tu complètes les services src/Services en te basant sur les services tests/Services
+* Pour tester ```$ php vendor/bin/phpunit --colors=auto tests```
 
 ### Exemple code dans service
 
@@ -61,5 +65,5 @@ class CalculateTest extends TestCase
 ### A toi de jouer
 
 * Termine le service Addition de l'exemple
-* Créer moi un service pour transformer un titre en url
+* Créer un service pour transformer un titre en url
 * Pour le tester ```$ php vendor/bin/phpunit --colors=auto tests```
